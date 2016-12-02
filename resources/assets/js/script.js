@@ -193,8 +193,7 @@ $( document ).ready(function() {
     'img/social-icons/f-icon-hover.svgz',
     'img/social-icons/gplus-icon-hover.svgz',
     'img/social-icons/in-icon-hover.svgz',
-    'img/social-icons/twitter-icon-hover.svgz',
-	'img/color-lines-web.svg'
+    'img/social-icons/twitter-icon-hover.svgz'
 	]);
 	checkWidth();
 	mobileMenu();
