@@ -197,7 +197,7 @@ body {
 /****************** MOB MENU **********************/
 .mob-menu{
   &.mobile-menu{
-    top: 12px;
+    top: 8px;
   }
 }
 @media screen and (min-width: 640px) {
@@ -939,7 +939,7 @@ div.main-main {
     height: 1.38em;
     padding-left: 5%;
     width: 100%;
-    margin-top: 0;
+    margin-top: 10px;
     font-size: 5.5vw;
   }
 
