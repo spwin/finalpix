@@ -1,0 +1,8 @@
+[02-Feb-2016 17:29:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/pixsensc/public_html/final/public/index.php on line 50
+[02-Feb-2016 17:30:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/pixsensc/public_html/final/public/index.php on line 50
+[02-Feb-2016 17:32:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/pixsensc/public_html/final/public/index.php on line 50
+[02-Feb-2016 17:32:16 America/Chicago] PHP Fatal error:  Call to undefined function php_info() in /home1/pixsensc/public_html/final/public/test.php on line 1
+[02-Feb-2016 17:32:47 America/Chicago] PHP Fatal error:  Call to undefined function php_info() in /home1/pixsensc/public_html/final/public/test.php on line 1
+[04-Feb-2016 00:08:08 UTC] PHP Parse error:  syntax error, unexpected 'WEB' (T_STRING) in /home1/pixsensc/public_html/final/storage/framework/views/2ce40ed7b3361cda08996542503b5693 on line 16
+[03-Feb-2016 18:53:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/pixsensc/public_html/final/public/index.php on line 50
+[03-Feb-2016 18:53:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home1/pixsensc/public_html/final/public/index.php on line 50
