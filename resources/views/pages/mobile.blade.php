@@ -9,7 +9,7 @@
     @include('mobile-menu')
     <div class="main-main mobile-home">
         <div class="logo-and-text">
-            <a href="{{ url('http://'.env('WEB')) }}">
+            <a href="{{ url('http://'.env('EN_WEB')) }}">
                 {!! HTML::image('img/logo.svgz', 'logo', array('class' => 'main-logo')) !!}
             </a>
             <p class="text-below-logo light"><span class="element"></span></p>

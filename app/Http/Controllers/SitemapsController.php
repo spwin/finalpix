@@ -35,7 +35,7 @@ class SitemapsController extends Controller
      */
     public function indexSingle()
     {
-        Sitemap::addTag('http://' . env('WEB'), date('c', time()), 'monthly', '1');
+        Sitemap::addTag('http://' . env('EN_WEB'), date('c', time()), 'monthly', '1');
         return Sitemap::render();
     }
 
