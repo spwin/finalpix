@@ -12,7 +12,7 @@
             <div id="large-header" class="large-header">
                 <canvas id="demo-canvas"></canvas>
                 <h1 class="main-title">
-                    <div style="display: inline-block;text-align: left;">
+                    <div class="inner-main-title">
                         {!! HTML::image('img/logo.svgz', 'Logo', array('class' => 'main-logo')) !!}
                         <div><span class="thin element"></span></div>
                     </div>

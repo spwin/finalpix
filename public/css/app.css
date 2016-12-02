@@ -1270,6 +1270,10 @@ div.best-main {
     color: #fff;
     text-shadow: -1px 1px 4px #ffc, 1px -1px 4px #fff; }
 
+.inner-main-title {
+  display: inline-block;
+  text-align: left; }
+
 /****************
 This sass code is based on mobile-first,
 so most of queries are 'min-width' and made

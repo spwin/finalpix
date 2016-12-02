@@ -14,16 +14,16 @@
     {!! HTML::image('img/menu-line.png', 'menu line', array('class' => 'seperator wide-seperator mob-visible')) !!}
     <div class="mob-menu-social">
         <div class="mob-social-cont">
-            <a href="{!! env('FACEBOOK') !!}">{!! HTML::image('img/social-icons/f-icon.svgz') !!}</a>
+            <a href="{!! env('FACEBOOK') !!}">{!! HTML::image('img/social-icons/f-icon.svgz', 'Facebook icon') !!}</a>
         </div>
         <div class="mob-social-cont">
-            <a href="{!! env('GOOGLEPLUS') !!}">{!! HTML::image('img/social-icons/gplus-icon.svgz') !!}</a>
+            <a href="{!! env('GOOGLEPLUS') !!}">{!! HTML::image('img/social-icons/gplus-icon.svgz', 'Google icon') !!}</a>
         </div>
         <div class="mob-social-cont">
-            <a href="{!! env('TWITTER') !!}">{!! HTML::image('img/social-icons/twitter-icon.svgz') !!}</a>
+            <a href="{!! env('TWITTER') !!}">{!! HTML::image('img/social-icons/twitter-icon.svgz', 'Twitter icon') !!}</a>
         </div>
         <div class="mob-social-cont">
-            <a href="{!! env('LINKEDIN') !!}">{!! HTML::image('img/social-icons/in-icon.svgz') !!}</a>
+            <a href="{!! env('LINKEDIN') !!}">{!! HTML::image('img/social-icons/in-icon.svgz', 'LinkedIn icon') !!}</a>
         </div>
     </div>
 </div>
