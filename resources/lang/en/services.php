@@ -3,7 +3,7 @@
 return [
     'header-text-1' => 'OUR <span class="green">SERVICES</span>',
     'under-header-text-1' => 'We specialise in developing quality websites for you.',
-    'more' => 'Red more',
+    'more' => 'Read more',
 
     'seo' => 'PAGE SEO',
     'hidden-text-1' => '<span class="bold blue">Top results</span> in search engines!',
