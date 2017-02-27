@@ -2,7 +2,7 @@
 
 return[
     'homepage.title' => 'Web Design and SEO Services London | Pixsens',
-    'homepage.description' => 'Web development and design, SEO, responsive websites, logo and brand building. Breathing life into pixels.',
+    'homepage.description' => 'Web development and design, SEO, responsive websites, logo and brand building, website maintaining and upgrading services. Breathing life into pixels.',
 
     'services.title' => 'Web Development & Maintain Services | Pixsens',
     'services.description' => 'We create fast and stable Websites, improve performance, create modules, maintain and migrate websites.',
