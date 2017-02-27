@@ -5,5 +5,5 @@ return [
     'programming' => 'development',
     'design' => 'design',
     'services' => 'web-development-services-prices',
-    'contacts' => 'contacts'
+    'contacts' => 'contact-us'
 ];
