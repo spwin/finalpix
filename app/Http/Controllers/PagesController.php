@@ -24,15 +24,18 @@ class PagesController extends Controller
 
 
     public function seo(){
-        return view('pages.seo');
+        return redirect((trans('routes.services')));
+        //return view('pages.seo');
     }
 
     public function programming(){
-        return View('pages.programming');
+        return redirect((trans('routes.services')));
+        //return View('pages.programming');
     }
 
     public function design(){
-        return View('pages.design');
+        return redirect((trans('routes.services')));
+        //return View('pages.design');
     }
 
     public function services(){

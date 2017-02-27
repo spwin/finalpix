@@ -5,8 +5,9 @@ return [
     'seo' => 'Seo',
     'programming' => 'Development',
     'design' => 'Design',
-    'services' => 'Services',
+    'services' => 'Services & Prices',
     'contacts' => 'Contact us',
+    'home' => 'Home',
 
     'contacts-details' => 'CONTACTS',
     'city' => 'London',

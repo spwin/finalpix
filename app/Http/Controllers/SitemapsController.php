@@ -18,12 +18,12 @@ class SitemapsController extends Controller
      */
     public function index()
     {
-        Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB') . '/' . Lang::get('routes.services'), date('c', time()), 'monthly', '1');
-        Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB') . '/' . Lang::get('routes.seo'), date('c', time()), 'monthly', '1');
+        Sitemap::addTag(url('/') . '/' . Lang::get('routes.services'), date('c', time()), 'monthly', '1');
+        /*Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB') . '/' . Lang::get('routes.seo'), date('c', time()), 'monthly', '1');
         Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB') . '/' . Lang::get('routes.design'), date('c', time()), 'monthly', '1');
-        Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB') . '/' . Lang::get('routes.programming'), date('c', time()), 'monthly', '1');
-        Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB') . '/' . Lang::get('routes.contacts'), date('c', time()), 'monthly', '1');
-        Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB'), date('c', time()), 'monthly', '1');
+        Sitemap::addTag('http://' . env(strtoupper(Lang::getLocale()).'_WEB') . '/' . Lang::get('routes.programming'), date('c', time()), 'monthly', '1');*/
+        Sitemap::addTag(url('/') . '/' . Lang::get('routes.contacts'), date('c', time()), 'monthly', '1');
+        Sitemap::addTag(url('/'), date('c', time()), 'monthly', '1');
 
         return Sitemap::render();
     }

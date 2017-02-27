@@ -1,11 +1,13 @@
 <div class="mob-menu">
     {!! HTML::image('img/menu-line.png', 'menu line', array('class' => 'seperator wide-seperator mob-visible')) !!}
     <ul class="mob-menu-list light">
-        <a href="{{ url(trans('routes.seo')) }}"><li><span>{!! trans('menu.mobile-seo') !!}</span></li></a>
+        {{--<a href="{{ url(trans('routes.seo')) }}"><li><span>{!! trans('menu.mobile-seo') !!}</span></li></a>
         {!! HTML::image('img/menu-line.png', 'menu line', array('class' => 'seperator wide-seperator mob-visible')) !!}
         <a href="{{ url(trans('routes.programming')) }}"><li><span>{!! trans('menu.mobile-programming') !!}</span></li></a>
         {!! HTML::image('img/menu-line.png', 'menu line', array('class' => 'seperator wide-seperator mob-visible')) !!}
         <a href="{{ url(trans('routes.design')) }}"><li><span>{!! trans('menu.mobile-design') !!}</span></li></a>
+        {!! HTML::image('img/menu-line.png', 'menu line', array('class' => 'seperator wide-seperator mob-visible')) !!}--}}
+        <a href="{{ url('/') }}"><li><span>{!! trans('menu.mobile-home') !!}</span></li></a>
         {!! HTML::image('img/menu-line.png', 'menu line', array('class' => 'seperator wide-seperator mob-visible')) !!}
         <a href="{{ url(trans('routes.services')) }}"><li><span>{!! trans('menu.mobile-services') !!}</span></li></a>
         {!! HTML::image('img/menu-line.png', 'menu line', array('class' => 'seperator wide-seperator mob-visible')) !!}

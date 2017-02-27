@@ -9,7 +9,7 @@
     @include('menu')
     <div class="main-contacts text-center">
         <div class="content-header">
-            <h1>{!! trans('contacts.header-text-1') !!}</h1>
+            <h1 class="green">{!! trans('contacts.header-text-1') !!}</h1>
             <span class="fs22 maxwidth430 inline-block">{!! trans('contacts.under-header-text-1') !!}</span>
         </div>
         <div class="paragraph">
@@ -45,7 +45,7 @@
             {!! Form::close() !!}
         </div>
         <div class="paragraph contacts-bottom-text">
-            {{--<p class="content-text bold fs20"><span class="green inline-block">{!! trans('contacts.phone-number') !!}</span><span class="inline-block">{!! trans('contacts.email-address') !!}</span><span class="inline-block green">London, UK</span></p>--}}
+            <p class="content-text bold fs20"><span class="green inline-block">{!! trans('contacts.phone-number') !!}</span><span class="inline-block">{!! trans('contacts.email-address') !!}</span><span class="inline-block green">London, UK</span></p>
         </div>
     </div>
     @include('footer')

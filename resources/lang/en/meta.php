@@ -4,8 +4,8 @@ return[
     'homepage.title' => 'Web Design and SEO Services London | Pixsens',
     'homepage.description' => 'Web development and design, SEO, responsive websites, logo and brand building. Breathing life into pixels.',
 
-    'services.title' => 'Web Development services | Pixsens',
-    'services.description' => 'We will take care of your business online presence. You can see our web development and design services here.',
+    'services.title' => 'Web Development & Maintain Services | Pixsens',
+    'services.description' => 'We create fast and stable Websites, improve performance, create modules, maintain and migrate websites.',
 
     'seo.title' =>'Search engines optimization | Pixsens',
     'seo.description' => 'The most important basis for a good SEO - valuable and informative page. Information about SEO and services we provide.',
@@ -16,6 +16,6 @@ return[
     'development.title' => 'Web Maintenance and upgrade | Pixsens',
     'development.description' => 'We create fast and stable Websites, improve performance, create modules, maintain and migrate websites.',
 
-    'contacts.title' => 'Write us | Pixsens',
+    'contacts.title' => 'Contact us | Pixsens',
     'contacts.description' => 'Not sure where to start with your Web project, require web consultation? We are always pleased to receive your message.'
 ];

@@ -11,7 +11,8 @@
                 <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
                 <script type="IN/FollowCompany" data-id="3834069" data-counter="right"></script>
             </div>--}}
-            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FpixsensLTD&width=118&layout=button_count&action=like&size=small&show_faces=false&share=true&height=46&appId=1646316419027352" width="118" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FpixsensLTD&width=118&layout=button_count&action=like&size=small&show_faces=false&share=false&height=46&appId=1646316419027352" width="118" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <a href="https://twitter.com/PixsensLTD" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @PixsensLTD</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             {{--<div><div class="g-plusone" data-size="medium" data-href="https://plus.google.com/+PIXSENSlT2014"></div></div>--}}
         </div>
     </div>
@@ -20,9 +21,10 @@
         <div class="footer-block footer-menu resp-pad-left">
             <ul class="footer-list">
                 <li>{!! trans('footer.about-us') !!}</li>
-                <li><a href="{{ url(trans('routes.seo')) }}">{!! trans('footer.seo') !!}</a></li>
+                {{--<li><a href="{{ url(trans('routes.seo')) }}">{!! trans('footer.seo') !!}</a></li>
                 <li><a href="{{ url(trans('routes.programming')) }}">{!! trans('footer.programming') !!}</a></li>
-                <li><a href="{{ url(trans('routes.design')) }}">{!! trans('footer.design') !!}</a></li>
+                <li><a href="{{ url(trans('routes.design')) }}">{!! trans('footer.design') !!}</a></li>--}}
+                <li><a href="{{ url('/') }}">{!! trans('footer.home') !!}</a></li>
                 <li><a href="{{ url(trans('routes.services')) }}">{!! trans('footer.services') !!}</a></li>
                 <li><a href="{{ url(trans('routes.contacts')) }}">{!! trans('footer.contacts') !!}</a></li>
             </ul>

@@ -4,6 +4,6 @@ return [
     'seo' => 'seo',
     'programming' => 'development',
     'design' => 'design',
-    'services' => 'services',
+    'services' => 'web-development-services-prices',
     'contacts' => 'contacts'
 ];
